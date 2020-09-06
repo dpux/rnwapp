@@ -18,4 +18,4 @@ For the private module solution, try:
 
 Adding outer code in package.json works as far as imports go but cant compile JSX out of the box. Additional work is required to compile JSX for CRA apps. 
 
-yarn build cannot work out of the box without additional wiring. 
+yarn build needs to be routed through react-scripts to build prod js 
