@@ -1,10 +1,10 @@
-import React from 'react';
-import { View, Text } from "react-native"
+import React from "react";
+import {View, Text} from "react-native";
 
 export const CustomView = ({textStyle}) => {
-    return (
-        <View>
-            <Text style={textStyle}>Hello from Native</Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Text style={textStyle}>Hello from Native</Text>
+    </View>
+  );
+};
